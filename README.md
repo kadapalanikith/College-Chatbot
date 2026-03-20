@@ -1,9 +1,6 @@
-# 🎓 EduReach — AI-Powered College Intelligence Platform
+# College-Chatbot
 
 <div align="center">
-
-![EduReach Banner](https://res.cloudinary.com/dpvbaiyus/image/upload/v1772014920/campus_lnna9a.avif)
-
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 [![Node.js](https://img.shields.io/badge/Node.js-24-339933?style=flat-square&logo=node.js)](https://nodejs.org)

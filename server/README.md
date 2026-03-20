@@ -1,4 +1,4 @@
-# EduReach — Backend (Server)
+# College-Chatbot-Server
 
 Node.js + Express + LangChain + MongoDB backend for the EduReach College Intelligence Platform.
 

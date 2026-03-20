@@ -1,4 +1,4 @@
-# EduReach — Frontend (Client)
+# College-Chatbot-Client
 
 React 19 + Vite + TypeScript + Tailwind CSS v4 frontend for the EduReach College Intelligence Platform.
 
