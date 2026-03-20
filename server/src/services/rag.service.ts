@@ -32,11 +32,12 @@ const getMongoClient = async (): Promise<MongoClient> => {
 // ---- Google GenAI Embeddings ----
 // gemini-embedding-001 → default 3072 dimensions (FREE, same API key as Gemini chat)
 const getEmbeddings = () => {
-  if (!process.env.GOOGLE_API_KEY) {
-    throw new Error("GOOGLE_API_KEY is not set in .env!");
+  const apiKey = process.env.GOOGLE_API_KEY || process.env.GEMINI_API_KEY;
+  if (!apiKey) {
+    throw new Error("GOOGLE_API_KEY or GEMINI_API_KEY is not set in .env!");
   }
   return new GoogleGenerativeAIEmbeddings({
-    apiKey: process.env.GOOGLE_API_KEY,
+    apiKey: apiKey,
     model: "gemini-embedding-001",
   });
 };
