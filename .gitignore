@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+**/dist/
+
+# Environment variables — NEVER commit these!
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+**/*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
